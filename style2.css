@@ -27,187 +27,178 @@ a {
   }
 
 header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    min-width: 200px;
     background-color: #6f0000;
     color: white;
-    padding: 20px;
+    display: block;
 }
 
 header h1 {
+    vertical-align: bottom;
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
 }
 
-menu {
-    display: flex;
-}
-
-menu li {
-    list-style: none;
-    margin-left: 10px;
-    padding: 10px;
+li {
     background-color: #8b0303;
+    display: inline-block;
+    position: relative;
+    left: 75%;
+    padding: 10px;
 }
 
 .pesquisa{
+    display: inline-block;
+    width: 100%;
     border: 0;
-}
-
-/* BARRA LATERAL + CORPO */
-
-section {
-    display: flex;
+    position: relative;
+    top: 20px;
+    margin-bottom: 50px;
 }
 
 /* BARRA LATERAL */
 
 nav {
-    display: inline-block;
-    flex-wrap: wrap;
-    width: 17%;
-    min-width: 250px;
     background-color: #8b0303;
     color: white;
+    display: inline-block;
+    vertical-align: top;
+    width: 17%;
 }
 
 .titulos {
-    display: block;
-    padding-top: 20px;
-    padding-left: 20px;
+    position: relative;
+    left: 30px;
+    margin-top: 60px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     font-weight: bolder;
 }
 
 nav article p {
-    display: flex;
     color: rgba(244, 240, 240, 0.885);
+    position: relative;
+    top: 10px;
     width: 200px;
 }
 
 nav article{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1 200px;
-    padding: 20px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    margin-bottom: 70px;
 }
 
 /* CORPO */
 
 main{
-    flex-wrap: wrap;
-    width: 80%;
-    min-width: 200px;
     color: white;
+    display: inline-block;
+    width: 82%;
 }
 
 .categorias {
-    padding: 30px;
     border: 0;
 }
 
 .titulos2 {
-    display: block;
+    position: relative;
+    left: 30px;
+    margin-top: 100px;
+    margin-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     font-weight: bolder;
-    padding: 30px;
 }
 
 .sessao1 {
-    display: flex;
-    flex-wrap: wrap;
+    height: 500px;
+    position: relative;
 }
 
 .titulos3 {
-    display: block;
+    position: relative;
+    left: 30px;
+    margin-top: 50px;
+    margin-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     font-weight: bolder;
-    padding-left: 30px;
 }
 
 .sessao2 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.sessao3 {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.sessao4 {
-    display: flex;
-    flex-wrap: wrap;
+    height: 500px;
 }
 
 main article{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1 1;
-    padding: 50px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 20%;
+    margin: 25px;
 }
 
-article h3 {
-    padding-top: 10px;
-    padding-bottom: 5px;    
+main article h3 {
+    width: 200px;
 }
 
 main article p {
     color: rgba(242, 234, 234, 0.475);
+    position: relative;
+    top: 10px;
     width: 200px;
 }
 
 /* RODAPÉ */
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    align-items: center;
-    color: white;
     background-color: #6f0000;
 }
 
 footer p {
-    padding: 10px;
     color: white;
-    font-weight: bolder;
-}
-
-footer ul {
-    display: flex;
+    position: relative;
+    display: inline-block;
+    left: 20px;
+    top: 20px;
 }
 
 footer li {
-    list-style: none;
-    margin-left: 10px;
-    padding: 10px;
     background-color: #6f0000;
     color: white;
+    display: inline-block;
+    position: relative;
+    left: 60%;
+    padding: 20px;
 }
 
 /* PÁGINA FILMES */
 
 .artigo-escolhido{
-    display: flex;
-    padding: 20px;
-    width: 70%;
     color: rgba(242, 234, 234, 0.475);
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    margin: 25px;
 }
 
 .sinopse {
-    display: flex;
-    padding: 10px;
+    position: relative;
+    left: 20px;
+    vertical-align: top;
+    display: inline-block;
+    width: 300px;
 }
 
 /* PÁGINA LOGIN */
 
 .login {
-    border: 0;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 50%;
 }

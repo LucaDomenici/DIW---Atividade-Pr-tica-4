@@ -1,80 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luca Silva Domenici</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
     <!-- CABEÇALHO -->
 
     <header>
-        <div class="cabecalho">
-            <h1>CENTRAL DOS FILMES</h1>
-            <menu class= "menu" style="font-size: large;">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="categorias.html">Categorias</a></li>
-                <li><a href="favoritos.html">Favoritos</a></li>
-                <li><a href="login.html">Login</a></li>
-            </menu>
-        </div>
+        <h1>CENTRAL DOS FILMES</h1>
+
+        <section>
+            <fieldset class="pesquisa">
+                Pesquisar: <input type="text" name="pesquisar" required>
+                <input type="submit" value="Pesquisar">
+            </fieldset>
+        </section>
+
+        <menu class="menu" style="font-size: large;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categorias-genero.html">Categorias</a></li>
+            <li><a href="favoritos.html">Favoritos</a></li>
+            <li><a href="login.html">Login</a></li>
+        </menu>
     </header>
 
     <!-- BARRA LATERAL -->
 
-    <nav>
-        <p class="titulos">
-            Novidades
-        </p>
+    <section>
+        <nav>
+            <p class="titulos">
+                Novidades
+            </p>
 
-        <article>    
-            <div class="artigo1">
-                <a href="ainda-estou-aqui.html"><img width="200" height="250" src="https://upload.wikimedia.org/wikipedia/pt/5/57/Ainda_Estou_Aqui_2024_poster.jpg" alt="filme1"></a><br>
-                <h3>Ainda Estou Aqui</h3>
-                <p>No início da década de 1970, o Brasil enfrenta o endurecimento da ditadura militar. No Rio de Janeiro, a família Paiva - Rubens, Eunice e seus cinco filhos - vive à beira da praia em uma casa de portas abertas para os amigos...</p>
-            </div>
-        </article>
+            <article>
+                <div class="artigo1">
+                    <a href="ainda-estou-aqui.html"><img width="200" height="250"
+                            src="https://upload.wikimedia.org/wikipedia/pt/5/57/Ainda_Estou_Aqui_2024_poster.jpg"
+                            alt="filme1"></a><br>
+                    <h3>Ainda Estou Aqui</h3>
+                    <p>No início da década de 1970, o Brasil enfrenta o endurecimento da ditadura militar. No Rio de
+                        Janeiro, a família Paiva - Rubens, Eunice e seus cinco filhos - vive à beira da praia em uma
+                        casa de
+                        portas abertas para os amigos...</p>
+                </div>
+            </article>
 
-        <article>    
-            <div class="artigo2">
-                <a href="a-substancia.html"><img width="200" height="250" src="https://m.media-amazon.com/images/S/pv-target-images/d40e2853996d20ff038e1a9bb5cad0c2bd75360b123a8daae467cd34c60c4e36.jpg" alt="filme1"></a><br>
-                <h3>A Substância</h3>
-                <p>Elisabeth Sparkle, renomada por um programa de aeróbica, enfrenta um golpe devastador quando seu chefe a demite...</p>
-            </div>
-        </article>
-    </nav>
+            <article>
+                <div class="artigo2">
+                    <a href="a-substancia.html"><img width="200" height="250"
+                            src="https://m.media-amazon.com/images/S/pv-target-images/d40e2853996d20ff038e1a9bb5cad0c2bd75360b123a8daae467cd34c60c4e36.jpg"
+                            alt="filme1"></a><br>
+                    <h3>A Substância</h3>
+                    <p>Elisabeth Sparkle, renomada por um programa de aeróbica, enfrenta um golpe devastador quando seu
+                        chefe a demite...</p>
+                </div>
+            </article>
+        </nav>
 
-    <!-- CORPO -->
+        <!-- CORPO -->
 
-    <main>
-        <div id="corpo">
-            
-            <section>
-                <fieldset class="pesquisa">
-                    Pesquisar: <input type="text" name="pesquisar" required>
-                    <input type="submit" value="Pesquisar">
-                </fieldset>
-            </section>
-
+        <main>
             <p class="titulos2">
                 Avatar 2
             </p>
-    
-                <div class="artigo-escolhido">
-                    <img width="400" height="500" src="https://m.media-amazon.com/images/I/71s3cEqEZTL._AC_UF894,1000_QL80_.jpg" alt="filme1">
-                    <p class="sinopse">
-                        Data de lançamento: 15 de dezembro de 2022 (Brasil)<br><br>
-                        Diretor: James Cameron<br><br>
-                        Roteiro: James Cameron<br><br>
-                        Produtoras: 20th Century Studios, Lightstorm Entertainment, TSG Entertainment<br><br>
-                        Sinopse:<br>
-                        Após formar uma família, Jake Sully e Ney'tiri fazem de tudo para ficarem juntos. No entanto, eles devem sair de casa e explorar as regiões de Pandora quando uma antiga ameaça ressurge, e Jake deve travar uma guerra difícil contra os humanos.
-                    </p>
-                </div>
-        </div>
-    </main>
+
+            <div class="artigo-escolhido">
+                <img width="400" height="500"
+                    src="https://m.media-amazon.com/images/I/71s3cEqEZTL._AC_UF894,1000_QL80_.jpg" alt="filme1">
+                <p class="sinopse">
+                    Data de lançamento: 15 de dezembro de 2022 (Brasil)<br><br>
+                    Diretor: James Cameron<br><br>
+                    Roteiro: James Cameron<br><br>
+                    Produtoras: 20th Century Studios, Lightstorm Entertainment, TSG Entertainment<br><br>
+                    Sinopse:<br>
+                    Após formar uma família, Jake Sully e Ney'tiri fazem de tudo para ficarem juntos. No entanto, eles
+                    devem
+                    sair de casa e explorar as regiões de Pandora quando uma antiga ameaça ressurge, e Jake deve travar
+                    uma
+                    guerra difícil contra os humanos.
+                </p>
+            </div>
+        </main>
+    </section>
 
 </body>
+
 </html>
