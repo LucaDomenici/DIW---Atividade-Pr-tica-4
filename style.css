@@ -31,7 +31,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    min-width: 200px;
+    min-width: 560px;
     background-color: #6f0000;
     color: white;
     padding: 20px;
@@ -110,6 +110,29 @@ main{
     border: 0;
 }
 
+.banner {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.introducao {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    width: 60%;
+    text-align: justify;
+    color: rgba(242, 234, 234, 0.475);
+}
+
+.favoritar {
+    border: 0;
+}
+
 .titulos2 {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
@@ -168,6 +191,7 @@ main article p {
 footer {
     display: flex;
     flex-wrap: wrap;
+    min-width: 560px;
     padding: 20px;
     align-items: center;
     color: white;
@@ -210,4 +234,126 @@ footer li {
 
 .login {
     border: 0;
+}
+
+/* RESOLUÇÕES ESPECÍFICAS */
+
+@media screen and (max-width:608px) {
+    nav {
+        display: none;
+    }
+
+    header {
+        display: block;
+        flex-wrap: wrap;
+        align-items: center;
+        min-width: 100%;
+        background-color: #6f0000;
+        color: white;
+        padding: 20px;
+    }
+
+    header h1 {
+        display: block;
+        padding-bottom: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+    }
+
+        
+    menu li {
+        list-style: none;
+        margin-left: 0px;
+        padding: 5px;
+        background-color: #8b0303;
+    }
+
+    .pesquisa{
+        display: flex;
+        border: 0;
+        padding-bottom: 20px;
+    }
+
+    .introducao {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 40px;
+        width: 100%;
+        text-align: justify;
+        font-size: larger;
+        color: rgba(242, 234, 234, 0.475);
+    }
+
+    p {
+        font-size: larger;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 100%;
+        padding: 20px;
+        align-items: center;
+        color: white;
+        background-color: #6f0000;
+    }
+    
+    footer p {
+        padding: 10px;
+        color: white;
+        font-weight: bolder;
+    }
+    
+    footer ul {
+        display: block;
+    }
+    
+    footer li {
+        list-style: none;
+        margin-left: 10px;
+        padding: 10px;
+        background-color: #6f0000;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 609px)and (max-width:1100px) {
+    header {
+        display: block;
+        flex-wrap: wrap;
+        align-items: center;
+        min-width: 560px;
+        background-color: #6f0000;
+        color: white;
+        padding: 20px;
+    }
+    
+    header h1 {
+        display: block;
+        padding-bottom: 20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+    }
+    
+    menu li {
+        list-style: none;
+        margin-left: 10px;
+        padding: 10px;
+        background-color: #8b0303;
+    }
+    
+    .pesquisa{
+        display: flex;
+        border: 0;
+        padding-bottom: 20px;
+    }
+
+    .introducao {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 40px;
+        width: 80%;
+        text-align: justify;
+        color: rgba(242, 234, 234, 0.475);
+    }
 }
